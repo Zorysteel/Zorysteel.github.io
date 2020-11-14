@@ -3,27 +3,11 @@ body	{
 			font-family: "Lucida	Sans	Unicode",	"Lucida	Grande",	sans-serif;
 	}
 h1	{
-					padding: 10px;
+					background-image:	url(../img/sobre-background.jpg);
 	}
 h2	{
-					margin-top: 30px;
+					border-bottom: 2px	solid	#333333;
 	}
-p	{
-					padding: 0 45px;
-					text-indent: 15px;
-	}
-Saber	inglês	é	muito	importante	em	TI
-2.20	EXERCÍCIOS:	LISTAS	E	MARGENS
-.
-figure	{
-					padding: 15px;
-					margin: 30px;
-	}
-figcaption	{
-					margin-top: 10px;
-	}
-
-
 figure	{
 			background-color: #F2EDED;
 			border: 1px	solid	#ccc;
@@ -31,6 +15,35 @@ figure	{
 	}
 figcaption	{
 			font-style:	italic;
+	}
+
+h1	{
+					padding: 10px;
+	}
+h2	{
+					margin-top: 30px;
+	}
+h1 + p	{
+					text-indent: 0;
+	}
+
+p	{
+					padding: 0 45px;
+					text-indent: 15px;
+	}
+p::first-letter	{
+			font-weight:	bold;
+		}
+	p::first-line	{
+					font-variant:	small-caps;
+			}
+
+figure	{
+					padding: 15px;
+					margin: 30px;
+	}
+figcaption	{
+					margin-top: 10px;
 	}
 
 			body	{
@@ -60,4 +73,3 @@ figcaption	{
 					vertical-align:	middle;
 					width: 94px;
 	}
-
